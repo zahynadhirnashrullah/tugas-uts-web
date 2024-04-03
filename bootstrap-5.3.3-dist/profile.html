@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil</title>
+    <!-- Include Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <style>
+        /* Styling for the profile page */
+        body {
+            background-image: url('gambar/wallpaper.jpg');
+            background-color: rgba(0, 0, 0, 0.3);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+
+        .profile-container {
+            max-width: 800px;
+            margin: auto;
+            padding: 2rem;
+            background: #fff;
+            border-radius: 2rem;
+            box-shadow: 0 15px 35px rgba(50, 50, 93, 0.1), 0 5px 15px rgba(0, 0, 0, 0.07);
+            background-color: rgba(255, 255, 255, 0.1);
+            color: #fff;
+        }
+
+        .profile-image {
+            width: 12rem;
+            height: 12rem;
+            position: absolute;
+            bottom: 500px;
+            left: 60%;
+            transform: translate(-50%, 50%);
+            background: #8f6ed5 url('gambar/zahy\ nadhir.jpg') center center no-repeat;
+            background-size: cover;
+            border-radius: 50%;
+            box-shadow: 0 15px 35px rgba(50, 50, 93, 0.1), 0 5px 15px rgba(0, 0, 0, 0.07);
+        }
+
+        .navbar {
+        background-color: rgba(90, 90, 90, 0.959);
+    }
+
+        .nav-link {
+        color: #fff;
+    }
+
+        .navbar-brand {
+        color: #fff;
+    }
+
+</style>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+            <a class="navbar-brand">
+                <img src="gambar/logooooo.jpeg" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+                zahy Website
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <a class="navbar-brand me-auto" href="#"></a>
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="web.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="profile.html">My Profile</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="jadwal.html">Class Schedule</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="hobi.html">My Hobby</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="daftar.html">Register</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Log Out</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <br>
+    <div class="profile-container">
+        <div class="profile-image"></div>
+        <h1 class="display-4">BIODATA</h1>
+        <p>Nama: zahy Nadhir Nashrullah</p>
+        <p>Tanggal lahir: 03-05-2005</p>
+        <p>Agama: Islam</p>
+        <p>Universitas: Politeknik Negeri Madiun</p>
+        <p>Prodi: TI</p>
+        <p>Jurusan: Teknik</p>
+        <p>Kelas: 2B</p>
+        <!-- Add other profile details here -->
+    </div>
+    <!-- Include Bootstrap JS -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
